@@ -1,7 +1,6 @@
 import {React,useContext} from 'react'
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
-import img1 from '../assets/img/pizza1.jpg'
 import { Link } from "react-router-dom";
 import ListGroup from 'react-bootstrap/ListGroup';
 import CartContext from '../contexts/CartContext';
@@ -14,7 +13,7 @@ export default function CardPizza(props) {
   const {product,setProducts} = useContext(ProductContext)
   return (
     <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src={img1} />
+      <Card.Img variant="top" src={props.item.img} />
       <Card.Body>
         <Card.Title>{props.item.name}</Card.Title>
         <Card.Text>
