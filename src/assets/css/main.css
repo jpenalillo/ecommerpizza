@@ -1,0 +1,33 @@
+.img-home{
+    max-width: 100%;
+    height: 311px;
+    width: 100%;
+    background-repeat: no-repeat;
+    object-fit:cover;
+    background-image: url('https://www.dwazeherder.nl/assets/responsive-images/header-pizza/header-pizza-webp/pizza-dwaze-herder-giga-wide-4-1-2000-px.webp');
+}
+h1,h3 {
+    line-height: 100px !important;
+    text-align: center; 
+    color: white;
+    text-shadow: 2px 0 rgb(121, 117, 117), -2px 0 rgb(121, 117, 117), 0 2px rgb(121, 117, 117), 0 -2px rgb(121, 117, 117),
+                 1px 1px rgb(121, 117, 117), -1px -1px rgb(121, 117, 117), 1px -1px rgb(121, 117, 117), -1px 1px rgb(121, 117, 117);
+  }
+  .contenedorCard{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 50px;
+  }
+  button{
+    width: 120px;
+    margin-left: 5px !important;
+  }
+  .card-body{
+    color: white !important;
+  }
+  ul{list-style: none !important;}
